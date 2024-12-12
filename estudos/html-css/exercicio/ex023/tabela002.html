@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tfoot {
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        th#largura {
+            width: 50px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela...</h1>
+    <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col" id="largura">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">11.895.578</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">6.729.894</td>
+            </tr>
+            <tr>
+                <td>Brasília</td>
+                <td class="num">2.982.818</td>
+            </tr>
+            <tr>
+                <td>Fortaleza</td>
+                <td class="num">2.574.412</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">2.568.928</td>
+            </tr>
+            <tr>
+                <td>Belo Horizente</td>
+                <td class="num">2.416.339</td>
+            </tr>
+            <tr>
+                <td>Manaus</td>
+                <td class="num">2.279.686</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">1.829.225</td>
+            </tr>
+            <tr>
+                <td>Recife</td>
+                <td class="num">1.587.707</td>
+            </tr>
+            <tr>
+                <td>Goiânia</td>
+                <td class="num">1.494.599</td>
+            </tr>
+            <tr>
+                <td>Belém</td>
+                <td class="num">1.398.531</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.389.322</td>
+            </tr>
+            <tr>
+                <td>São Luís</td>
+                <td class="num">1.088.057</td>
+            </tr>
+            <tr>
+                <td>Maceió</td>
+                <td class="num">994.464</td>
+            </tr>
+            <tr>
+                <td>Campo grande</td>
+                <td class="num">954.537</td>
+            </tr>
+            <tr>
+                <td>Teresina</td>
+                <td class="num">902.644</td>
+            </tr>
+            <tr>
+                <td>João Pessoa</td>
+                <td class="num">888.679</td>
+            </tr>
+            <tr>
+                <td>Natal</td>
+                <td class="num">785.368</td>
+            </tr>
+            <tr>
+                <td>Cuiabá</td>
+                <td class="num">682.932</td>
+            </tr>
+            <tr>
+                <td>Aracaju</td>
+                <td class="num">628.849</td>
+            </tr>
+            <tr>
+                <td>Florianopólis</td>
+                <td class="num">576.361</td>
+            </tr>
+            <tr>
+                <td>Porto Velho</td>
+                <td class="num">514.873</td>
+            </tr>
+            <tr>
+                <td>Macapá</td>
+                <td class="num">487.200</td>
+            </tr>
+            <tr>
+                <td>Boa Vista</td>
+                <td class="num">470.169</td>
+            </tr>
+            <tr>
+                <td>Rio Branco</td>
+                <td class="num">387.852</td>
+            </tr>
+            <tr>
+                <td>Vitória</td>
+                <td class="num">342.800</td>
+            </tr>
+            <tr>
+                <td>Palmas</td>
+                <td class="num">323.625</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>212.583.750</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
