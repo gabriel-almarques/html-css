@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte externas</title>
+    <style>
+        @font-face{
+            font-family: 'love';
+            src: url(fontes/LastChristmas_PERSONAL_USE_ONLY.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embvedded-opentype
+                - truetype-att (apple Advanced typografy)
+                - svg
+            */
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h1{
+            font-family: 'love';
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora molestiae sint aspernatur dolorum nulla perspiciatis ullam. Iusto laudantium possimus dicta vero voluptatem quaerat incidunt molestias repellat. Dolore, provident velit.</p>
+</body>
+</html>
