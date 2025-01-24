@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de teste</title>
+    <title>Tabelas Responsivas</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -31,12 +31,40 @@
         tr:nth-child(odd) {
             background-color: white;
         }
+        table {
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        caption {
+            font-weight: bolder;
+            font-size: 1.2em;
+            padding: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(172, 172, 172);
+        }
+
+        div#conteiner {
+            overflow-x: auto;
+        }
+
     </style>
 </head>
 <body>
     <div id="conteiner">
         <table>
+<<<<<<< HEAD
             <caption>Vendas de produtos por mês</caption>
+=======
+            <caption>Vendas do mês</caption>
+>>>>>>> d15b9e28cc1e5d9be60e4f29fca455cc9a88825e
             <thead>
                 <tr>
                     <th>Produto</th>
@@ -163,5 +191,8 @@
             </tbody>
         </table>
     </div>
+<<<<<<< HEAD
 </body>
+=======
+>>>>>>> d15b9e28cc1e5d9be60e4f29fca455cc9a88825e
 </html>
