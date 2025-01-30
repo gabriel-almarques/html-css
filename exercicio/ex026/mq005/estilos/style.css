@@ -1,0 +1,79 @@
+@charset "UTF_8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgb(150, 150, 150);
+}
+
+header h1 {
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 2.8em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+i#burguer {
+    background-color: rgb(53, 53, 53);
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: rgb(53, 53, 53);
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+ul > li {
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+header li:hover {
+    background-color: rgba(128, 128, 128, 0.425);
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+main {
+    max-width: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main  h2 {
+    padding: 15px 0px 15px 0px ;
+    text-align: center;
+}
+
+main p {
+    padding: 12px;
+}
